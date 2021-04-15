@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "cairoRegular";
+    font-family: "cairoFont";
     src: url(../youtuby/font/Cairo-Regular.ttf);
 }
 body {
-    font-family: "cairoRegular", Arial, sans-serif;
+    font-family: "cairoFont", Arial, sans-serif;
     background-color: #fafafa;
 }
 a {
