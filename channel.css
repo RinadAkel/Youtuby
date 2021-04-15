@@ -5,16 +5,18 @@
 .channel-page .video-section .card:hover {
     transform: translateY(0%);
 }
-.card .fa-play {
-    top: 39px;
-    left: 90px;
-}
 time {
     font-size: 13px;
+    bottom: 0px !important;
+    left: 0px !important;
 }
-time {
-    top: 100px;
-    left: 2px;
+.channel-page .social-media {
+    bottom: 18px;
+    left: 20px;
+}
+.channel-page .follow {
+    bottom: 18px;
+    right: 18px;
 }
 @media (max-width: 593px) {
     .navbar-light .navbar-nav .nav-link {
@@ -27,49 +29,5 @@ time {
     .navbar-light .navbar-nav .nav-link {
         padding-right: 4px;
         padding-left: 4px;
-    }
-}
-.channel-page .social-media {
-    bottom: 18px;
-    left: 20px;
-}
-.channel-page .follow {
-    bottom: 18px;
-    right: 18px;
-}
-@media(max-width:575px){
-    time{
-        top:200px !important;
-    }
-    .card .fa-play{
-        left:210px !important;
-        top:120px !important;
-    }
-}
-@media(min-width:567px)and (max-width:599px){
-    time{
-        top:90px !important;
-    }
-    .card .fa-play{
-        left:85px !important;
-        top: 45px !important;
-    }
-}
-@media(min-width:768px)and (max-width:991px){
-    time{
-        top:80px !important;
-    }
-    .card .fa-play{
-        left:75px !important;
-        top: 35px !important;
-    }
-}
-@media(min-width:991px)and (max-width:1199px){
-    time{
-        top:90px !important;
-    }
-    .card .fa-play{
-        left:80px !important;
-        top: 35px !important;
     }
 }

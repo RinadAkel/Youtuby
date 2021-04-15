@@ -1,60 +1,53 @@
-.card:hover{
+.card:hover {
     transform: translateY(0%);
 }
-.watch-page .watch-icons{
-    position:absolute;
+.watch-page .watch-icons {
+    position: absolute;
     bottom: 5px;
     right: 20px;
 }
-.watch-icons i:hover{
-    cursor:pointer;
+.watch-icons i:hover {
+    cursor: pointer;
+ }
+ .watch-page #more {
+    display: none;
 }
-.watch-page #more{
-    display:none;
-}
-.form-control:focus{
+.form-control:focus {
     box-shadow: none;
 }
-.card-inner{
-    display:none;
+.card-inner {
+    display: none;
 }
-.public-comment .card .btn{
+.public-comment .card .btn {
     background-color: #921192;
     border-color: #921192;
     color: #fff;
 }
-.public-comment .card .btn:hover{
+.public-comment .card .btn:hover {
     background-color: #b915b9;
 }
 time {
-    top: 100px;
-    left: 20px;
+    left: 18px !important;
+    bottom: 5px !important;
 }
-.card .fa-play {
-    top: 35px;
-    left: 100px;
+.watch-page .fa-play {
+    right: 46% !important;
 }
-@media (max-width:575px){
-    time{
-        font-size:13px;
-        top: 275px;
-        left: 17px;
+@media (min-width: 992px) {
+    time {
+        font-size: 13px;
     }
-      .card .fa-play{
-        top: 120px;
-        left: 255px;
+    .fa-play {
+        font-size: 20px !important;
     }
 }
-@media (max-width: 1062px){
-    #myBtn{
-        margin-bottom:60px !important;
+@media (max-width: 1062px) {
+    #myBtn {
+        margin-bottom: 60px !important;
     }
 }
-@media(max-width:570px){
-    .reply-time{
-        font-size:10px
-    }
-    time{
-        top:230px !important;
+@media (max-width: 570px) {
+    .reply-time {
+        font-size: 10px;
     }
 }
