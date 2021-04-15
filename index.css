@@ -1,6 +1,6 @@
 @font-face {
     font-family: "cairoFont";
-    src: url(../youtuby/Cairo-Regular.ttf);
+    src: url(../youtuby/font/Cairo-Regular.ttf);
 }
 body {
     font-family: "cairoFont", Arial, sans-serif;
